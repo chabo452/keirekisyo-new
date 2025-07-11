@@ -1,57 +1,109 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8" />
-    <title>経歴書ファイル</title>
-    <style>
-        body { font-family: 'Yu Gothic', sans-serif; padding: 20px; background: #f7f7f7; }
-        pre { background: #fff; padding: 20px; border: 1px solid #ddd; overflow-x: auto; }
-    </style>
+  <meta charset="UTF-8">
+  <title>スキルシート - 野口慧</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;700&display=swap');
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #f5f5f7;
+      color: #1d1d1f;
+    }
+    h1 {
+      font-size: 2rem;
+      border-bottom: 2px solid #e5e5ea;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: #0071e3;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    p, li {
+      line-height: 1.6;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+    }
+    .skill-item {
+      background-color: #e5e5ea;
+      padding: 0.3rem 0.7rem;
+      border-radius: 12px;
+      font-size: 0.9rem;
+    }
+    .footer-note {
+      font-size: 0.85rem;
+      color: #6e6e73;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-    <h1>経歴書ファイル内容</h1>
-    <pre>【職務経歴要約】
+  <h1>スキルシート（野口慧）</h1>
 
-私は、業界横断型の経営企画・業務企画・事業企画の専門人材として、IT、アパレル、人材、インフラ、コンサル、小売、商社、運輸、物流といった多様な業界で実践的に従事してきました。中小企業から本社・支社・子会社など幅広い組織形態に関与し、主に現場改善と全体最適にフォーカスした仕組み設計・プロジェクト推進・戦略支援を行っています。  
-基本リモート体制を取りながら、必要に応じて現地訪問も柔軟に対応し、経費削減と現場理解を両立させています。
+  <div class="section">
+    <h2>【職務経歴要約】</h2>
+    <p>私は、業界横断型の経営企画・業務企画・事業企画の専門人材として、IT、アパレル、人材、インフラ、コンサル、小売、商社、運輸、物流といった多様な業界で実践的に従事してきました。中小企業から本社・支社・子会社など幅広い組織形態に関与し、主に現場改善と全体最適にフォーカスした仕組み設計・プロジェクト推進・戦略支援を行っています。</p>
+    <p>基本リモート体制を取りながら、必要に応じて現地訪問も柔軟に対応し、経費削減と現場理解を両立させています。</p>
+  </div>
 
-【経験・実績】
+  <div class="section">
+    <h2>【経験・実績】</h2>
+    <ul>
+      <li><strong>経営企画：</strong>経営課題分析、経営戦略立案、経営目標・KGI/KPI設計／経営会議資料作成、役員報告、経営目線での意思決定支援</li>
+      <li><strong>事業企画：</strong>市場・競合分析、事業戦略設計、事業計画／PL設計／MVP設計、アライアンス検討、新規事業の立ち上げ支援</li>
+      <li><strong>業務企画・改善：</strong>新旧業務プロセス設計、業務フローの標準化と自動化／管理会計（PL・予実・月次分析）導入支援／GASやPythonを用いた業務効率化ツール開発</li>
+      <li><strong>プロジェクトマネジメント：</strong>PM／PMOとして社内横断PJや現場改革PJの推進／社長直下の改善施策や緊急対応のタスク実行／最大10〜29名のチームマネジメントを5〜10年実施</li>
+    </ul>
+  </div>
 
-● 経営企画
-- 経営課題分析、経営戦略立案、経営目標・KGI/KPI設計
-- 経営会議資料作成、役員報告、経営目線での意思決定支援
+  <div class="section">
+    <h2>【近年の活動】</h2>
+    <p>2023年11月より「株式会社東京白ゆり會」にて経営企画・事業企画・業務企画業務に従事。</p>
+    <p>アパレル・小売・ECを中心に、POPUP運営、在庫分析、業務支援、業務自動化ツール開発等を通じて、実行支援＋仕組み導入をワンストップで担う。</p>
+  </div>
 
-● 事業企画
-- 市場・競合分析、事業戦略設計、事業計画／PL設計
-- MVP設計、アライアンス検討、新規事業の立ち上げ支援
+  <div class="section">
+    <h2>【スキル・使用ツール】</h2>
+    <div class="skill-list">
+      <div class="skill-item">Google Apps Script</div>
+      <div class="skill-item">Python</div>
+      <div class="skill-item">Excel VBA</div>
+      <div class="skill-item">Power BI</div>
+      <div class="skill-item">Notion</div>
+      <div class="skill-item">Google Workspace</div>
+      <div class="skill-item">Trello</div>
+      <div class="skill-item">Slack</div>
+      <div class="skill-item">LINE連携</div>
+      <div class="skill-item">Figma</div>
+      <div class="skill-item">Adobe XD</div>
+      <div class="skill-item">HTML/CSS/JS（プロトタイピング用途）</div>
+    </div>
+  </div>
 
-● 業務企画・改善
-- 新旧業務プロセス設計、業務フローの標準化と自動化
-- 管理会計（PL・予実・月次分析）導入支援
-- Google Apps ScriptやPythonを用いた業務効率化ツール開発
+  <div class="section">
+    <h2>【その他】</h2>
+    <ul>
+      <li>複数拠点や属人化した業務の可視化・標準化・属人脱却支援</li>
+      <li>1人情シス／1人経営企画／現場プレイングマネージャー支援</li>
+      <li>営業資料・仕組み設計・経営改善資料の即時出力スキル</li>
+    </ul>
+  </div>
 
-● プロジェクトマネジメント
-- PM／PMOとして社内横断PJや現場改革PJの推進
-- 社長直下の改善施策や緊急対応のタスク実行を多数経験
-- 最大10〜29名のチームマネジメントを5〜10年実施
-
-【近年の活動】
-
-2023年11月より「株式会社東京白ゆり會」にて経営企画・事業企画・業務企画業務に従事。  
-アパレル・小売・ECを中心に、POPUP運営、在庫分析、業務支援、業務自動化ツール開発等を通じて、実行支援＋仕組み導入をワンストップで担う。
-
-【スキル・使用ツール】
-
-- Google Apps Script / Python / Excel VBA / Power BI
-- Notion / Google Workspace / Trello / Slack / LINE連携
-- Figma / Adobe XD / HTML・CSS・JS（プロトタイピング用途）
-
-【その他】
-
-- 複数拠点や属人化した業務の可視化・標準化・属人脱却支援
-- 1人情シス／1人経営企画／現場プレイングマネージャー支援
-- 営業資料・仕組み設計・経営改善資料の即時出力スキル
-
-</pre>
+  <p class="footer-note">© 2025 野口慧 — All rights reserved.</p>
 </body>
 </html>
